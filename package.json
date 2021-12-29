@@ -1,0 +1,15 @@
+{
+  "name": "php.sandbox",
+  "version": "1.0.0",
+  "description": "general webserver",
+  "main": "build.js",
+  "scripts": {
+    "start" : "docker-compose up -d",
+    "stop": "docker-compose down",
+    "start:react": "cd site && npx react-scripts start",
+    "report" : "node build",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
